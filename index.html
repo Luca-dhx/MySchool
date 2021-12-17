@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My School</title>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <link rel="stylesheet"  href="note.css">
+    </head>
+
+
+<body>
+    <span></span>
+
+    <div id="note-container">
+      <div class="top-tab-note-div">
+          <p class="tab-title-presentation-yournote">Notes de l'élève</p>
+         <span class="add-not-btn" id="add-form-btn-note">Ajouter une note  <i  id="add-note-icon" class="bi bi-journal-plus"></i></span>
+         <div id="add-note-form-div-container">
+            <form id="add-form-note">
+                <label class="label-form-note">Matière: </label>
+                <select id="note-matery">
+                    <option class="option-list-matery" value="none">Choisir</option>
+                    <option class="option-list-matery" value="Mathhématique">Mathématique</option>
+                    <option class="option-list-matery" value="Science & Vie de la Terre">SVT</option>
+                    <option class="option-list-matery" value="Physique-Chimie">Physique-Chimie</option>
+                    <option class="option-list-matery" value="Français">Français</option>
+                    <option class="option-list-matery" value="LV2">LV2</option>
+                    <option class="option-list-matery" value="Anglais">Anglais</option>
+                </select>
+    
+                <label class="label-form-note">Note : </label>
+                <input class="input-add-not-form" type="text" maxlength="4" id="note-score-value">
+                <label class="label-form-note">Nom de l'évaluation : </label>
+                <input class="input-add-not-form" type="text" id="nameoftest">
+                <span class="on-maximum-score">/20</span>
+    
+                <input id="add-btn-valid-form" value="Ajouter" type="submit">
+    
+        </div>
+      </div>
+
+        
+      <div id="note-score-container">
+          <div id="moyenne-text-user"><span id="user-moyenne-score-span"></span></div>
+      </div>
+
+    </div>
+
+
+     <div id="note-added-validation-message">
+        <span class="validation-form-message"><i class="bi bi-check-circle-fill"></i> Note ajoutée</span>
+     </div>
+
+
+    
+</body>
+
+</html>
+
+<script src="script.js">
+   
+</script>
+
+<script id="storage-script">
+
+</script>

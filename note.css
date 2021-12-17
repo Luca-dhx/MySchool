@@ -1,0 +1,159 @@
+.tab-title-presentation-yournote {
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#note-container {
+    width: 60em;
+    margin: 0 auto;
+    color: white;
+}
+
+
+.top-tab-note-div {
+    border: 0.1em solid grey;
+    background-color: #00a2ff;
+    padding: 1em;
+}
+
+.tab-title-presentation-yournote {
+    
+}
+
+#add-form-btn-note {
+   cursor: pointer;
+   background-color: #dedede;
+   padding: 0.5em 0.7em;
+   color: black;
+   font-weight: bold;
+}
+
+#add-form-btn-note:hover {
+    background-color: #b6b6b6;
+}
+
+#add-note-icon {
+    font-size: 1.2em;
+    position: relative;
+    top: 0.13em;
+    left: 0.2em;
+}
+
+#add-note-form-div-container {
+    position: relative;
+    top: 1em;
+    display: none;
+}
+
+#add-form-note {
+    border: 1px solid black;
+    padding: 1em;
+    background-color: #6ecaff;
+    margin-bottom: 1em;
+    color: black;
+}
+
+#note-matery {
+    cursor: pointer;
+    color: black;
+    padding: 0.2em;
+    border-radius: 2px;
+    border: none;
+    background-color: white;
+    
+}
+
+.option-list-matery {
+    
+}
+
+.option-list-matery:hover {
+    
+
+}
+
+#note-score-value {
+    width: 3em;
+    text-align: center;
+}
+
+#add-btn-valid-form {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0.3em 0.7em;
+    background-color: #ffcb3d;
+    border: none;
+    border-radius: 2px;
+
+    position: absolute;
+    right: 1em;
+}
+
+#add-btn-valid-form:hover {
+    background-color: #ffbb00;
+}
+
+#note-score-container {
+    position: relative;
+    top: 1em;
+    font-size: 1.3em;
+    border: 1px solid black;
+}
+
+#moyenne-text-user {
+    text-align: center;
+    background-color: #34aeeb;
+    color: white;
+}
+
+.note-div-element-bloc {
+    padding: 0.5em 0.7em;
+    border-bottom: 1px solid grey;
+    cursor: default;
+}
+
+.score-of-note-bloc {
+    position: absolute;
+    right: 1em;
+    border-left: 1px solid grey;
+    padding-left: 0.5em;
+    text-align: right;
+    width: 4em;
+}
+
+.no-note-here {
+    font-size: 0.8em;
+    background-color: #ffc4c2;
+    color: white;
+    padding: 0.5em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#no-note-icon {
+    position: relative;
+    left: 1em;
+    top: 0.05em;
+}
+
+.note-div-element-bloc {
+    color: black;
+}
+
+#note-added-validation-message {
+    position: relative;
+    opacity: 0;
+    top: 2em;
+    background-color:#bcebc0;
+    color: #009c10;
+    padding: 0.5em;
+    font-size: 1.2em;
+    border-radius: 2px;
+    text-align: center;
+    width: 15em;
+    margin: 0 auto;
+}
