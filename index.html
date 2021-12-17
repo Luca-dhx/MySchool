@@ -28,13 +28,32 @@
                     <option class="option-list-matery" value="LV2">LV2</option>
                     <option class="option-list-matery" value="Anglais">Anglais</option>
                 </select>
-    
                 <label class="label-form-note">Note : </label>
-                <input class="input-add-not-form" type="text" maxlength="4" id="note-score-value">
-                <label class="label-form-note">Nom de l'évaluation : </label>
-                <input class="input-add-not-form" type="text" id="nameoftest">
+                <select id="note-score-value">
+                    <option class="option-list-matery" value="none">Choisir</option>
+                    <option class="option-list-matery" value="absent">Absent(e)</option>
+                    <option class="option-list-matery" value="dispense">Dispensé(e)</option>                    
+                </select>
+
+                <label class="label-form-note">Coefficient : </label>
+                <select id="note-coeff-value">
+                    <option class="option-list-matery" value="none">Choisir</option>                 
+                </select>
+
+                <!--
+                    
+                    absent : <i class="bi bi-calendar-x-fill"></i>
+                    dispensé : 
+                    
+                    
+                    
+                    <label class="label-form-note">Note : </label>
+                <input class="input-add-not-form" type="text" maxlength="4" >
                 <span class="on-maximum-score">/20</span>
-    
+                <label class="label-form-note">Nom de l'évaluation : </label>
+                <input class="input-add-not-form" type="text" id="nameoftest">-->
+                
+                
                 <input id="add-btn-valid-form" value="Ajouter" type="submit">
     
         </div>
@@ -62,6 +81,6 @@
    
 </script>
 
-<script id="storage-script">
+<script src="note-list.js">
 
 </script>

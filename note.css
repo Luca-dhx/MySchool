@@ -47,7 +47,6 @@
 }
 
 #add-form-note {
-    border: 1px solid black;
     padding: 1em;
     background-color: #6ecaff;
     margin-bottom: 1em;
@@ -64,6 +63,10 @@
     
 }
 
+.label-form-note {
+    color: white;
+}
+
 .option-list-matery {
     
 }
@@ -74,7 +77,7 @@
 }
 
 #note-score-value {
-    width: 3em;
+    width: 6em;
     text-align: center;
 }
 
